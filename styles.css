@@ -1,0 +1,199 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff7d1;
+    color: #333;
+    line-height: 1.5;
+    margin: auto;
+}
+
+body h1{
+    color:rgb(238, 238, 238);
+    text-align: center;
+    font-family: 'Optima', serif;
+    font-size: 50px;
+    margin:2vh;
+}
+
+.container h1{
+    color:#5b3838;
+    font-weight: 600;
+    text-align: start;
+    padding-left:40px;
+    font-size: 35px;
+    margin-top:5vh;
+}
+
+#first-row-panel ol{
+    display:flex;
+    flex-direction:row;
+    color:#5b3838;
+    font-size:1.2rem;
+    width:auto;
+}
+
+
+#first-row-panel ol li {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+#interface-container, #interview-container{
+    display:flex;
+    flex-direction:row;
+    margin-top:5vh;
+    border-radius:12px;
+}
+
+#transition{
+  font-size: 5vh;
+  text-align: center;
+}
+
+.container p{
+    color:black;
+    font-family: 'Optima', serif;
+    text-align: start;
+    padding-left:40px;
+    font-size: 2.2vh;
+    line-height:130%;
+    width: 60%;
+    margin-left:1.2vw;
+    text-align:left;
+
+}
+
+#microwave-image {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+#microwave-image p{
+    text-align:start;
+    margin-left:10vw;
+    margin-top:0.5vh;
+}
+
+
+#intro-panel {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-evenly; 
+    height: 100%;
+    margin:10vh 0 10vh 0;
+}
+
+#text-panel{
+    display:flex;
+    flex-direction:column;
+}
+
+#text-panel p{
+    width:30vw;
+    /* font-size:2vh; */
+    line-height:130%;
+}
+
+#intro-panel-text h1{
+    text-align:center;
+    font-size:30px;
+}
+#intro-panel-text p{
+    text-align:start;
+    width:auto;
+    margin:2vw;
+}
+#intro-panel h1{
+    text-align:center;
+    font-weight: normal;
+    font-size:30px;
+}
+
+#microwave-title {
+    font-size:70px !important;
+    margin-right:2vw;
+    font-weight:bold !important;
+}
+
+
+
+#first-row-panel, #questions-panel, #empathy-panel, #storyboard-panel {
+    border-radius: 16px;
+    text-align:center; 
+    padding: 20px;
+}
+#first-row-panel, #questions-panel, #empathy-panel, #storyboard-panel h1{
+    color: white;
+    padding-top: 20px;
+    font-size:30px;
+}
+
+#first-row-panel, #questions-panel, #empathy-panel, #storyboard-panel p{
+    font-family: 'Optima', serif;
+}
+
+#microwave-image img {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin:auto;
+}
+
+.accordion-button {
+    background-color: #fff6da;
+    font-weight: bold;
+    font-size:2vh;
+    border: 2px solid #caa969; 
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.accordion-button:hover {
+    background-color: #ffeecb;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #fff3c9;
+    color: #000;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.5);
+}
+
+.accordion-button::after {
+    color: #000;
+}
+.accordion-body {
+    background-color: rgba(255, 204, 0, 0.5);
+    color:#5b3838;
+    font-size:2.5vh;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#grid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-radius: 16px; 
+}
+
+.item {
+    padding: 0 2vh 2vh 2vh;
+    border-radius: 12px;
+}
+
+.item h2{
+    color:black;
+}
+
+.persona{
+    display: flex;
+    max-width: 525px;
+}
+
+#conclusion-container p{
+width:50vw;
+line-height:130%;
+}
+

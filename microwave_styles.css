@@ -1,0 +1,73 @@
+/* Base styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff7d1;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Typography */
+  h1, h2, h3 {
+    font-family: 'Optima', serif;
+  }
+  
+  h1#microwave-title {
+    font-size: 3.5rem;
+    color: #5b3838;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .section-title {
+    color: #5b3838;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Accordion customization */
+  .accordion-button {
+    background-color: #fff6da;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid #caa969;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-button:hover {
+    background-color: #ffeecb;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #ffe9a7;
+    color: #000;
+    box-shadow: none;
+  }
+  
+  .accordion-body {
+    background-color: rgba(255, 204, 0, 0.3);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #5b3838;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  /* Persona & Storyboard images */
+  img.persona, img.storyboard {
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
